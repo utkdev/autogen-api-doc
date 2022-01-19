@@ -1,4 +1,16 @@
 #!/bin/bash
 cd /tmp/
 
-~/.nvm/versions/node/v17.4.0/bin/npm start
+nvm install 16.13.2
+nvm use 16.13.2
+
+node --version
+npm --version
+
+npm install -g npm@latest
+npm install -g forever
+
+node --version
+npm --version
+
+npm start
