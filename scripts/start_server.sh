@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /tmp/
 
-nvm use 17.4.0
+nvm install node
 
 node -v
 
