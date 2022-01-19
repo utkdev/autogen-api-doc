@@ -6,4 +6,5 @@ cd /tmp/
 node -v
 npm -v
 
+npm stop
 npm start

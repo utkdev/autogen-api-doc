@@ -13,7 +13,10 @@ const options = {
         },
         servers: [
             {
-                url: 'http://localhost:3000'
+                url: 'http://3.110.160.226:3000/'
+            },
+            {
+                url: 'http://ec2-3-110-160-226.ap-south-1.compute.amazonaws.com:3000/'
             }
         ]
     },
