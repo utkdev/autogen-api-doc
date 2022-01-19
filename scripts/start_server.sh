@@ -1,8 +1,4 @@
 #!/bin/bash
 cd /tmp/
 
-nvm install node
-
-node -v
-
-npm start
+~/.nvm/versions/node/v17.4.0/bin/npm start
