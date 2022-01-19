@@ -20,7 +20,20 @@ const router = express.Router();
  *         description: A success response
  */
 router.get('/products', (req, res) => {
-    res.send('Get Products')
+    res.json({
+        products: [
+            {
+                id: '232w32-12dcc-21232',
+                name: 'Puma Shoes',
+                size: 7,
+            },
+            {
+                id: '902oi-12ui2-2323',
+                name: 'Nike Shoes',
+                size: 10,
+            }
+        ]
+    })
 });
 
 /**
