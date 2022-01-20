@@ -31,7 +31,7 @@ const router = express.Router();
  * @swagger
  *  tags:
  *    name: Users
- *    description: Users service
+ *    description: Users Service
  */
 
 /**
@@ -72,7 +72,7 @@ router.get('/users', (req, res) => {
  *     responses:
  *       200:
  *         description: The user description by id
- *         contens:
+ *         content:
  *           application/json:
  *             schema:
  *               $ref: '#/components/schemas/User'
@@ -101,7 +101,7 @@ router.get("/users/:id", (req, res) => {
  *         schema:
  *           type: string
  *         required: true
- *         description: The book id
+ *         description: The user id
  * 
  *     responses:
  *       200:
