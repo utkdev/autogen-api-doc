@@ -4,9 +4,8 @@ const router = express.Router();
 /**
  * @swagger
  *  tags:
- *  - Products:
  *    name: Products
- *    description: Manages products apis
+ *    description: Products Service
  */
 
 /**
