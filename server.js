@@ -4,6 +4,7 @@ const cors = require('cors');
 const { swaggerDocs } = require('./swagger.config');
 const usersRouter = require("./routes/users");
 const productsRouter = require("./routes/products");
+const reviewsRouter = require("./routes/reviews");
 
 const app = express();
 
@@ -16,6 +17,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs, { customSiteT
 
 app.use('/', usersRouter)
 app.use('/', productsRouter)
+app.use('/', reviewsRouter)
 
 // Listener
 app.listen(port, () => {
